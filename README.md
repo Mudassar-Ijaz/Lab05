@@ -8,7 +8,7 @@ The purpose of this lab is to understand method specifications, behavioral equiv
 
 #What Was Implemented
 
-### Lab Task 1 – SearchStrategies.java
+### Lab Task 1  SearchStrategies.java
 
 The findFirst and findLast methods search for a value in an integer array from different directions.
 
@@ -16,7 +16,7 @@ Both methods give the same result when a value appears only once. When duplicate
 
 This shows that two methods can only be considered equivalent when they follow the same specification.
 
-### Lab Task 2 – MathUtils.java
+### Lab Task 2  MathUtils.java
 
 The calculateGravitationalPotentialEnergy method calculates gravitational potential energy.
 
@@ -24,7 +24,7 @@ Its precondition is that the altitude must be greater than or equal to 0.
 
 If a negative altitude is provided, the method immediately throws an IllegalArgumentException. This is called fail-fast validation and prevents an incorrect result from being produced.
 
-### Lab Task 3 – ListFormatter.java
+### Lab Task 3  ListFormatter.java
 
 The sortInPlace method changes the original list by sorting it.
 
@@ -32,7 +32,7 @@ The toLowerCase method does not change the original list. Instead, it creates an
 
 This demonstrates that a method should not modify its input unless the specification clearly allows it.
 
-### Lab Task 4 – Authenticator.java
+### Lab Task 4  Authenticator.java
 
 The getMitId method returns a direct reference to an internal char array. If the client changes the returned array, the internal data of the Authenticator object can also be changed.
 
@@ -40,7 +40,7 @@ The getMitIdSecure method returns the ID as a String. Since String is immutable,
 
 This shows why immutable objects are safer when sharing data with other parts of a program.
 
-### Lab Task 5 – JoinStrings.java
+### Lab Task 5  JoinStrings.java
 
 This task contains two JavaDoc specifications for the same method.
 
