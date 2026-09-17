@@ -15,7 +15,7 @@ public class AuthenticatorTest {
             leaked[i] = '*';
         }
 
-        // The client's "innocent" edit corrupted the Authenticator's own cache.
+       
         assertNotEquals(originalId, auth.peekCachedId(),
                 "Modifying the returned char[] should have corrupted internal state");
         assertEquals("*****" + originalId.substring(5), auth.peekCachedId());
@@ -27,8 +27,7 @@ public class AuthenticatorTest {
         String originalId = auth.peekCachedId();
 
         String secureId = auth.getMitIdSecure("student1");
-        String transformed = secureId.toUpperCase(); // creates a new String, doesn't mutate
-
+        String transformed = secureId.toUpperCase(); 
         assertEquals(originalId, auth.peekCachedId(),
                 "Internal state must remain unchanged after client uses the String");
         assertNotNull(transformed);
