@@ -1,14 +1,12 @@
 ## Lab Task 05 – Designing Specifications: Preconditions and Postconditions
 
-Course: Software Construction – 5th Semester Software Engineering
-Instructor: Engr. Rizwan Shah
-Date: 15 Sep 2026
 
-## Objective
+
+# Objective
 
 The purpose of this lab is to understand method specifications, behavioral equivalence, preconditions, postconditions, and fail-fast validation using Java and JUnit testing.
 
-## What Was Implemented
+#What Was Implemented
 
 ### Lab Task 1 – SearchStrategies.java
 
